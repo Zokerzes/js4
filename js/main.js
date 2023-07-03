@@ -16,7 +16,7 @@ function addRow(text) {
   let textNode = document.createTextNode(text);
   cell1.appendChild(textNode);
 
-  cell2.innerHTML = '<button class="delete-button" onclick="removeRow(this)">Delete</button>';
+  cell2.innerHTML = '<button class="delete-button" onclick="removeRow(this)">Удалить строку</button>';
 }
 
 function removeRow(button) {
