@@ -1,0 +1,38 @@
+#my-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#my-table th, #my-table td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#add-button{
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: grab;
+}
+  
+.input-container{
+    margin-bottom: 10px;        
+}
+ 
+.input-container input[type="text"]{
+    width: 200px;
+    height: 30 px;
+    border: 2px solid black;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
